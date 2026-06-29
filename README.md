@@ -11,11 +11,11 @@ Juego de cartas de memoria en un solo archivo HTML — sin dependencias, sin bui
 
 ## Niveles
 
-| Nivel   | Pares | Columnas |
-|---------|-------|----------|
-| Fácil   | 8     | 4        |
-| Normal  | 10    | 5        |
-| Difícil | 15    | 6        |
+| Nivel   | Pares | Columnas (desktop) | Columnas (móvil ≤ 540 px) |
+|---------|-------|--------------------|---------------------------|
+| Fácil   | 8     | 4                  | 4                         |
+| Normal  | 10    | 5                  | 4                         |
+| Difícil | 15    | 6                  | 5                         |
 
 ## Características
 
@@ -24,7 +24,8 @@ Juego de cartas de memoria en un solo archivo HTML — sin dependencias, sin bui
 - Animación de sacudida al fallar un par.
 - Contador de intentos y pares encontrados en tiempo real.
 - Mensaje de victoria con frases aleatorias al completar el tablero.
-- Diseño responsivo: en pantallas pequeñas el tablero se reorganiza a 4 columnas.
+- Compatible con navegadores móviles: sin delay de toque, sin selección accidental de texto, sin menú contextual al mantener presionado.
+- Diseño responsivo: en pantallas ≤ 540 px Fácil/Normal usan 4 columnas y Difícil usa 5 (6 filas en vez de 8, menos scroll).
 - Fuente [Roboto](https://fonts.google.com/specimen/Roboto) via Google Fonts.
 
 ## Estructura
